@@ -1,0 +1,132 @@
+#skills {
+    padding-top: 6.5vw;
+    padding-bottom: 6.5vw;
+}
+
+.pad{
+    padding-left: 9vw;
+    padding-top: 5vw;
+}
+
+#skills p{
+    font-family: fira sans;
+    font-weight: 300;
+    font-size: 0.95vw;
+}
+
+#skills .row .col-xs-6 h2 {
+    opacity: 0.52;
+    font-size: 7vw;
+    text-align: right
+}
+
+.rec_L, .rec_R {
+    height: 9px;
+    width: 100%;
+    background: #dbdbdb;
+    position: absolute;
+    z-index: 0;
+}
+
+.move {
+    padding-left: 6vw;
+}
+
+.rec_LG, .rec_RG {
+    height: 7px;
+    width:1%;
+    background: #2db34e;
+    position: absolute;
+    z-index: 1;
+}
+
+#skill_title {
+    padding-top:3.5vw;
+}
+
+.one.animate{
+    transition: width 2s;
+    width: 70.2%;
+}
+
+.two.animate{
+    transition: width 2s;
+    width: 75.2%;
+}
+
+.three.animate{
+    transition: width 2s;
+    width: 88.2%;
+}
+
+.four.animate{
+    transition: width 2s;
+    width: 74%;
+}
+
+.five.animate{
+    transition: width 2s;
+    width: 80%;
+}
+
+.six.animate{
+    transition: width 2s;
+    width: 84%;
+}
+
+
+@media screen and (max-width:769px) {
+    .rec_L, .rec_R {
+    height: 6px;
+    width: 100%;
+    }
+    
+    .rec_LG, .rec_RG {
+    height: 6px;
+    width:1%;
+    }
+    .one.animate{
+    transition: width 2s;
+    width: 70.2%;
+    }
+
+    .two.animate{
+        transition: width 2s;
+        width: 75.2%;
+    }
+
+    .three.animate{
+        transition: width 2s;
+        width: 88.2%;
+    }
+
+    .four.animate{
+        transition: width 2s;
+        width: 74%;
+    }
+
+    .five.animate{
+        transition: width 2s;
+        width: 80%;
+    }
+
+    .six.animate{
+        transition: width 2s;
+        width: 84%;
+    }
+    .comp {
+        margin-top: 2.4vw;
+    }
+}
+
+@media screen and (max-width:769px) {
+    .fix {
+        margin-bottom: 1.2vw;
+    }
+}
+
+@media screen and (max-width:372px) {
+    .fix {
+        margin-bottom: 1.8vw;
+    }
+}

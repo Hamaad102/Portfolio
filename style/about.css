@@ -1,0 +1,16 @@
+#about {
+    padding-top: 3.5vw;
+    padding-bottom: 3.5vw;
+}
+
+#about .row .col-xs-6 h2 {
+    opacity: 0.52;
+    font-size: 7vw;
+}
+
+#about .container p {
+    font-family: fira sans;
+    font-weight: 300;
+    font-size: 1.8vw;
+    margin-top: 5vw;
+}

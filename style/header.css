@@ -1,0 +1,54 @@
+#header {
+    background-color:#191e1f;
+    height:43.2vw;
+}
+
+#name {
+    display: block;
+    margin: auto;
+    margin-top: 4vw;
+    width: 40%;
+}
+
+.noMagB {
+    margin-bottom: 0px;
+}
+
+.noMagT {
+    margin-top: 0px;
+}
+
+#header .row .col-xs-12 h1{
+    font-size: 10.201vw;
+}
+
+#title {
+    margin-top:2%;
+}
+
+#header .row .col-xs-12 h2{
+    color: white;
+    font-size: 2.5vw;
+    letter-spacing: 0.057vw;
+}
+
+#col1 {
+    color: #ff005c;
+}
+
+#col2 {
+    color: #00aedb;
+}
+
+#col3 {
+    color: #0be700;
+}
+
+@media screen and (max-width: 669px) {
+    #header .row .col-xs-12 h2{
+        display: none;
+    }
+    #name {
+        margin-top: 5vw;
+    }
+}

@@ -1,0 +1,30 @@
+@import "nav.css";
+@import "header.css";
+@import "about.css";
+@import "skills.css";
+@import "portfolio.css";
+@import "contact.css";
+@import "footer.css";
+
+#luxAll {
+    font-family: luxia;
+    color: #ffd35c;
+}
+
+#galAll {
+    font-family: galano;
+}
+
+.cent {
+    text-align: center;
+}
+
+@font-face {
+    font-family: luxia;
+    src: url('../fonts/Luxia.otf');
+}
+
+@font-face {
+    font-family: galano;
+    src: url('../fonts/Galano.otf');
+}

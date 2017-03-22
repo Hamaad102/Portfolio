@@ -1,0 +1,72 @@
+.navbar-default {
+    background: #15191a;
+    padding-top: 10px;
+    border: 0px;
+    padding-bottom: 0.5em;
+    box-shadow: none;
+    margin-bottom: 0px;
+}
+
+#lux {
+    font-family: luxia;
+    color: #ffd35c;
+    font-size: 1.8em;
+}
+
+#nav_Item {
+    font-family: "Fira Sans";
+    font-weight: 300;
+    font-size: 1em;
+    color: white;
+    opacity: 0.5;
+}
+
+#nav_Item:hover {
+  background:none;
+  opacity: 1;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+    border-top: none;
+    box-shadow: none;
+}
+
+.navbar-toggle {
+    border: none;
+    background: transparent !important;
+}
+
+.navbar-toggle .icon-bar {
+    width: 25px;
+    height:2px;
+    margin-bottom: 6px;
+    transition: all 0.5s;
+    background-color: white !important;
+}
+
+.navbar-toggle .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggle .middle-bar {
+  opacity: 0;
+}
+
+.navbar-toggle .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+.navbar-toggle.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggle.collapsed .middle-bar {
+  opacity: 1;
+}
+
+.navbar-toggle.collapsed .bottom-bar {
+  transform: rotate(0);
+}

@@ -1,0 +1,48 @@
+#portfolio {
+    padding-top: 6.5vw;
+    padding-bottom: 6.5vw;
+}
+
+#portfolio .row .col-xs-7 h2 {
+    opacity: 0.52;
+    font-size: 6vw;
+}
+
+#portfolio h3 {
+    color: blue;
+}
+
+.carousel{
+    width: 12vw;
+    margin-left: 8vw;
+    margin-top: 5.8vw;
+    margin-right: 35vw;
+}
+
+.carousel img {
+    min-width: 105%;
+}
+
+.glyphicon-triangle-right, .glyphicon-triangle-left {
+    color: black;
+    opacity: 0.24;
+    font-size: 2.5vw;
+}
+
+.glyphicon-triangle-right {
+    padding-left: 14vw;
+    position: absolute;
+    padding-top: 6vw;
+}
+
+.glyphicon-triangle-left {
+    position: absolute;
+    margin-left: -3.2vw;
+    padding-top: 6vw;
+}
+
+@media screen and (max-width:412px) {
+    .carousel {
+        margin-top: 8vw;
+    }
+}

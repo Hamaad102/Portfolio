@@ -1,0 +1,53 @@
+#contact {
+    padding-top: 3.5vw;
+    background-color:#191e1f;
+    height:20vw;
+}
+
+#contact .row .col-xs-6 h2 {
+    opacity: 0.24;
+    font-size: 7vw;
+    text-align: right;
+    color: white;
+    padding-top: 3vw;
+    margin-right: 4vw;
+}
+
+#li {
+    margin-right: 4vw;
+    margin-left: 4vw;
+}
+
+#em {
+    margin-right: 4vw;
+}
+
+#contact img {
+    margin-left: 4vw;
+    padding-top: 5vw;
+    max-width: 100%;
+}
+
+@media screen and (max-width:1176px) {
+    #contact img {
+        padding-top: 6vw;
+    }
+}
+
+@media screen and (max-width:867px) {
+    #contact img {
+        padding-top: 7vw;
+    }
+}
+
+@media screen and (max-width:569px) {
+    #contact img {
+        padding-top: 9vw;
+    }
+}
+
+@media screen and (max-width:526px) {
+    #contact .row .col-xs-6 h2 {
+        font-size: 5vw;
+    }
+}
