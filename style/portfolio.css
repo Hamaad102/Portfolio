@@ -3,46 +3,17 @@
     padding-bottom: 6.5vw;
 }
 
-#portfolio .row .col-xs-7 h2 {
+#portfolio .row .col-xs-6 h2 {
     opacity: 0.52;
-    font-size: 6vw;
+    font-size: 5.8vw;
 }
 
-#portfolio h3 {
-    color: blue;
+#port-siz {
+    width: 9vw;
+    margin-top: 7vw;
 }
 
-.carousel{
-    width: 12vw;
-    margin-left: 8vw;
-    margin-top: 5.8vw;
-    margin-right: 35vw;
-}
-
-.carousel img {
-    min-width: 105%;
-}
-
-.glyphicon-triangle-right, .glyphicon-triangle-left {
-    color: black;
-    opacity: 0.24;
-    font-size: 2.5vw;
-}
-
-.glyphicon-triangle-right {
-    padding-left: 14vw;
-    position: absolute;
-    padding-top: 6vw;
-}
-
-.glyphicon-triangle-left {
-    position: absolute;
-    margin-left: -3.2vw;
-    padding-top: 6vw;
-}
-
-@media screen and (max-width:412px) {
-    .carousel {
-        margin-top: 8vw;
-    }
+#port-siz:hover{
+    transition: 0.5s cubic-bezier(.25,.8,.25,1);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
